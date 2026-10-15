@@ -20,7 +20,7 @@ The repository root `index.html` is a landing page linking to all three demos. A
 
 ## Images and map
 
-The demos use a mix of sample CSS artwork and externally hosted photographs. Photo credits and license links are shown beside the photos and listed below; the Manchester map is an OpenStreetMap embed with its attribution displayed by the map. External photos and the interactive map need an internet connection. Check usage rights and any model/property releases before adapting demo assets for a client.
+The demos use a mix of sample CSS artwork and externally hosted photographs. Photo credits and license links are shown beside the photos and listed below; the Manchester map is an OpenStreetMap embed with its attribution displayed by the map. External photos and the interactive map need an internet connection. Other visual panels remain replaceable CSS artwork; use client-approved images or update the gradients in each template's stylesheet. Check usage rights and any model/property releases before adapting demo assets for a client.
 
 ### Photo sources
 
