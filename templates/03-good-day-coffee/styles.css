@@ -89,3 +89,7 @@ h1 span, h2 span { color: var(--orange); }
   .map-placeholder { height: 300px; }
   .site-footer { align-items: start; flex-direction: column; }
 }
+
+.story-image { overflow: hidden; }
+.story-image::before { display: none; }
+.story-image img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; }

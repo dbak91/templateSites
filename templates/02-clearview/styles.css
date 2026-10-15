@@ -102,3 +102,7 @@ h2 { margin-bottom: 1.1rem; font-size: clamp(2.5rem, 4.5vw, 4.5rem); line-height
   .quote-banner { padding: 3rem 7vw; align-items: start; flex-direction: column; }
   .site-footer { align-items: start; flex-direction: column; }
 }
+
+.difference-art { overflow: hidden; }
+.difference-art::after { display: none; }
+.difference-art img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; }
