@@ -93,3 +93,7 @@ h1 span, h2 span { color: var(--orange); }
 .story-image { overflow: hidden; }
 .story-image::before { display: none; }
 .story-image img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; }
+
+.photo-strip { padding: 3rem 6vw; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.photo-strip figure { margin: 0; height: 260px; overflow: hidden; }
+.photo-strip img { width: 100%; height: 100%; display: block; object-fit: cover; }
