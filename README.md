@@ -18,9 +18,17 @@ Open any template's `index.html` directly in a browser. No install or build comm
 
 The repository root `index.html` is a landing page linking to all three demos. A GitHub Actions workflow deploys the root and template folders to GitHub Pages whenever changes are pushed to `main`, and can also be started manually from the Actions tab. For the first deployment, set the repository's **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
 
-## Replacing the image placeholders
+## Images and map
 
-The visual panels are intentionally self-contained CSS placeholders—there are no downloaded or externally hosted images, and therefore no third-party image licenses or source attributions to manage. In each stylesheet, find the `IMAGE PLACEHOLDER` rule and replace its gradient or pattern with a `background-image: url(...)` pointing to a client-approved image. Keep the accompanying HTML placeholder label or replace the visual panel with an `<img>` that has meaningful `alt` text. Use images the client owns or has permission to use, and record the source and license with the project.
+The demos use a mix of sample CSS artwork and externally hosted photographs. Photo credits and license links are shown beside the photos and listed below; the Manchester map is an OpenStreetMap embed with its attribution displayed by the map. External photos and the interactive map need an internet connection. Check usage rights and any model/property releases before adapting demo assets for a client.
+
+### Photo sources
+
+- **Alder & Row — office interior:** Mike Peel, [WMUK office - meeting room.jpg](https://commons.wikimedia.org/wiki/File:WMUK_office_-_meeting_room.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credit: “Mike Peel / Wikimedia Commons / CC BY-SA 4.0.”
+- **Clearview — window cleaner:** François Schnell, [WindowCleaner.jpg](https://commons.wikimedia.org/wiki/File:WindowCleaner.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Credit: “François Schnell / Wikimedia Commons / CC BY 2.0.”
+- **Good Day Coffee — coffee:** Nathan Dumlao, [photo on Unsplash](https://unsplash.com/photos/focus-photography-of-coffee-artwork-r-KfktlyBL0), [Unsplash License](https://unsplash.com/license). Attribution is not required by the license; credit is included here.
+
+The map in Good Day Coffee centers on Manchester, UK (53.4808, -2.2426). Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
 
 ## Folder structure
 
